@@ -7,6 +7,8 @@ branches:
     - kentnl
 env:
   - UTRECHT_TEST_DB="utrecht_test"
+services:
+  - postgresql
 jdk:
   - oraclejdk8
 #  - openjdk7 # tests fail - probably running out of memory or disk
